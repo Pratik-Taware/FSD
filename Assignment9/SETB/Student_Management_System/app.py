@@ -1,11 +1,3 @@
-# Q1. Student Management System with Update Operation
-# Create a Flask application connected to database.
-# Requirements:
-# ● Create Student table. 
-# ● Insert and display student records. 
-# ● Update the course of a student using Student_ID. 
-# ● Display updated records.
-
 from flask import Flask , request, render_template, redirect
 import psycopg2
 
@@ -18,7 +10,7 @@ def db_conncet():
         user = 'postgres',
         password = 'root',
         host = 'localhost',
-        port = '5432'
+        port = '5433'
     )
 
 # Create table Student

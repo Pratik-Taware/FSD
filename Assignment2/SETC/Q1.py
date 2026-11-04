@@ -1,6 +1,3 @@
-# Create a Flask application with a search form that accepts a student's name and displays 
-# the search result.
-
 from flask import Flask, request
 
 app = Flask(__name__)

@@ -1,5 +1,3 @@
-# Create a simple login form and validate entered username.
-
 from flask import Flask, request
 
 app = Flask(__name__)

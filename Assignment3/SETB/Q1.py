@@ -1,5 +1,3 @@
-# Q1. Create a Flask application displaying current date and time.
-
 from flask import Flask
 from datetime import datetime
 app = Flask(__name__)

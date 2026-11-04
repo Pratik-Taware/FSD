@@ -1,5 +1,3 @@
-# Create dynamic route accepting product ID and displaying product details.
-
 from flask import Flask
 
 app = Flask(__name__)

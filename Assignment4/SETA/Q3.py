@@ -1,5 +1,3 @@
-# Create a dynamic route that accepts a course name and displays course information.
-
 from flask import Flask
 
 app = Flask(__name__)

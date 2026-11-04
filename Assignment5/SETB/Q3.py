@@ -1,5 +1,3 @@
-# Accept employee basic salary and calculate the total salary after adding a fixed allowance.
-
 from flask import Flask, request
 
 app = Flask(__name__)

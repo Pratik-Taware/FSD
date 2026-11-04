@@ -1,6 +1,3 @@
-# Q2. Create a Flask application to store vehicle details, update vehicle price and delete a 
-# vehicle using Vehicle ID.
-
 from flask import Flask
 import psycopg2
 

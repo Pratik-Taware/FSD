@@ -1,6 +1,3 @@
-# Q3. Create a Flask application for a simple library search system that accepts a book name 
-# and displays the search result.
-
 from flask import Flask, request
 
 app = Flask(__name__)

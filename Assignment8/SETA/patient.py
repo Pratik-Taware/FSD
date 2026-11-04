@@ -1,6 +1,3 @@
-#  Create a Flask application connected with PostgreSQL. Create a Patient table and Search 
-# a patient using Patient ID and display the details.
-
 from flask import Flask, request
 import psycopg2
 

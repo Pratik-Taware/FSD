@@ -1,6 +1,3 @@
-# Create a Flask application connected with PostgreSQL. Create a employee table and
-# Search an employee using Employee ID and display Name, Department and Salary
-
 from flask import Flask, request
 import psycopg2
 

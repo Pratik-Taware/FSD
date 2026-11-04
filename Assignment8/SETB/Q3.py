@@ -1,6 +1,3 @@
-#  Create a Flask application connected with PostgreSQL. Create a Patient table with ID, 
-# Name and Age and insert 5 records.
-
 from flask import Flask
 import psycopg2
 

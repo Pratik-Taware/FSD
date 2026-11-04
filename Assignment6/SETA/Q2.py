@@ -1,5 +1,3 @@
-# Create a Flask application to display a list of five student names dynamically.
-
 from flask import Flask
 
 app = Flask(__name__)

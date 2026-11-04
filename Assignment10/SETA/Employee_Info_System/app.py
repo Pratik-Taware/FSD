@@ -1,13 +1,3 @@
-# Q2. Employee Information Form
-# Create a Flask application connected to database.
-# Requirements:
-# ● Accept: 
-# o Employee ID 
-# o Employee Name 
-# o Department 
-# ● Validate that all fields are compulsory. 
-# ● Store data in the database. 
-# ● Display entered information after successful submission.
 
 from flask import Flask, request, render_template
 import psycopg2
@@ -21,7 +11,7 @@ def db_connect():
         user="postgres",
         password="root",
         host="localhost",
-        port="5432"
+        port="5433"
     )
 
 # Create Employee table

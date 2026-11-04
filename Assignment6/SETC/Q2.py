@@ -1,5 +1,3 @@
-# Create a Flask application to display students who have scored more than 60 marks.
-
 from flask import Flask
 
 app = Flask(__name__)

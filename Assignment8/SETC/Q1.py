@@ -1,7 +1,3 @@
-# Create a Flask application connected with PostgreSQL. Insert 5 employee records. 
-# Update an employee's salary and delete an employee using Employee ID. Display the final 
-# employee records.
-
 from flask import Flask
 import psycopg2
 

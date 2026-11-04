@@ -1,5 +1,3 @@
-# Create a dynamic route that accepts a number and displays its square.
-
 from flask import Flask
 
 app = Flask(__name__)

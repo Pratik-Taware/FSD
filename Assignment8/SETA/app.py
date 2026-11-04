@@ -12,7 +12,7 @@ def connect_db():
             user="postgres",
             password="root",
             host="localhost",
-            port="5432"
+            port="5433"
         )
         conn.close()
         return "Database Connected Successfully"
@@ -28,7 +28,7 @@ def create_table():
             user="postgres",
             password="root",
             host="localhost",
-            port="5432"
+            port="5433"
         )
         cur = conn.cursor()
         cur.execute("""
@@ -55,7 +55,7 @@ def insert_students():
             user="postgres",
             password="root",
             host="localhost",
-            port="5432"
+            port="5433"
         )
         cur = conn.cursor()
         students = [

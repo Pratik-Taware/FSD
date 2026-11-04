@@ -1,5 +1,3 @@
-# Q3. Create a Flask application to perform CRUD operations on product inventory and 
-# update the product quantity using Product_ID.
 from flask import Flask, request, render_template, redirect
 import psycopg2
 

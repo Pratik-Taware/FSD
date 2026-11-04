@@ -1,5 +1,3 @@
-# Create a Flask application to find and display the most expensive product.
-
 from flask import Flask
 
 app = Flask(__name__)

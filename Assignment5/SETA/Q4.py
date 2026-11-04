@@ -1,5 +1,3 @@
-# Accept a student's marks and display Pass or Fail based on the entered marks.
-
 from flask import Flask, request
 
 app = Flask(__name__)

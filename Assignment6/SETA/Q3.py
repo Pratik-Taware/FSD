@@ -1,5 +1,3 @@
-# Create a Flask application to display student names in alphabetical order.
-
 from flask import Flask
 
 app = Flask(__name__)

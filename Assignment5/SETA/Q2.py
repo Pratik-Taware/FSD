@@ -1,5 +1,3 @@
-# . Accept two numbers and display its addition.
-
 from flask import Flask, request
 
 app = Flask(__name__)

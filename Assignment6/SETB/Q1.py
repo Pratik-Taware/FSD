@@ -1,5 +1,3 @@
-# Display student information stored in dictionary.
-
 from flask import Flask
 
 app = Flask(__name__)

@@ -1,5 +1,3 @@
-# Q2. Create a Flask application displaying system information using routes.
-
 from flask import Flask
 import platform
 

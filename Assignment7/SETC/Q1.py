@@ -1,26 +1,3 @@
-# Q1. Student Result API
-# Create a Flask application.
-# Requirements:
-# 1. Create a GET API /result that displays sample student result data. 
-# 2. Create a POST API /addresult that accepts: 
-#  Student Name & Marks 
-# 3. Return: 
-# o Student Name 
-# o Marks 
-# 4. Result (Pass if Marks ≥ 40 else Fail) Test both APIs using 
-# Postman.
-# Sample Input:
-# {
-#  "name":"Priya",
-#  "marks":75
-# }
-# Sample Output:
-# {
-#  "name":"Priya",
-#  "marks":75,
-#  "result":"Pass"
-# }
-
 from flask import Flask ,request, jsonify
 
 app = Flask(__name__)

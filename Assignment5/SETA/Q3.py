@@ -1,5 +1,3 @@
-# Accept length and breadth through a form and calculate the area of a rectangle.
-
 from flask import Flask, request
 
 app = Flask(__name__)

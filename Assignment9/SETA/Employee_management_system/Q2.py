@@ -1,10 +1,3 @@
-# Q2. Employee Management System
-# Create a Flask application connected to database.
-# Requirements:
-# ● Create a table Employee (Emp_ID, Name, Department). 
-# ● Insert employee records using an HTML form. 
-# ● Display all employee records in tabular format.
-
 from flask import Flask, request, render_template
 import psycopg2
 
@@ -17,7 +10,7 @@ def get_connect():
         user="postgres",
         password="root",
         host="localhost",
-        port="5432"
+        port="5433"
     )
     return con
 

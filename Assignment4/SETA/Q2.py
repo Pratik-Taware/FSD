@@ -1,5 +1,3 @@
-# Q2. Create Contact and Services routes.
-
 from flask import Flask
 
 app = Flask(__name__)

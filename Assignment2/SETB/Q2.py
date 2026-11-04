@@ -1,6 +1,3 @@
-# . Create a Flask application containing a form that accepts a student's name and displays 
-# the submitted name using POST.
-
 from flask import Flask, request
 
 app = Flask(__name__)

@@ -1,5 +1,3 @@
-# Accept student name using request object and display it on browser.
-
 from flask import Flask, request
 
 app = Flask(__name__)

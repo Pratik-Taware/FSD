@@ -1,6 +1,3 @@
-# . Create a Flask application to display student details and calculate the total and average 
-# marks dynamically.
-
 from flask import Flask, request
 
 app = Flask(__name__)

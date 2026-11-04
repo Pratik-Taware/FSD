@@ -1,6 +1,3 @@
-# Q2. Create a POST API /order to accept Product Name, Price and Quantity and return the 
-# order details with total amount.
-
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)

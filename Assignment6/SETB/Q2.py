@@ -1,6 +1,3 @@
-# Create a Flask application to display the details of five employes stored in a Python list.
-
-
 from flask import Flask
 
 app = Flask(__name__)

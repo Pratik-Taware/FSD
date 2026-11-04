@@ -1,5 +1,3 @@
-# Q1. Create a Flask application displaying a simple message about your college department.
-
 from flask import Flask
 
 app = Flask(__name__)

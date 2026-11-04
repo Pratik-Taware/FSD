@@ -1,5 +1,3 @@
-# Create a Flask application that accepts two numbers through a form and displays their product.
-
 from flask import Flask, request
 
 app = Flask(__name__)

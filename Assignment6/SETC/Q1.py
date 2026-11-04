@@ -1,5 +1,3 @@
-# Display employee details stored in a Python list.
-
 from flask import Flask
 
 app = Flask(__name__)

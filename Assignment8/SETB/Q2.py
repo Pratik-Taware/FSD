@@ -1,7 +1,3 @@
-#  Create a Flask application connected with PostgreSQL. Create a Books table and
-# Retrieve and display all books with their Author and Price.
-
-
 from flask import Flask
 import psycopg2
 

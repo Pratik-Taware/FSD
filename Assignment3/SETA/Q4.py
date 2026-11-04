@@ -1,5 +1,3 @@
-# Create a basic Flask application and display "Hello, Students" in the browser.
-
 from flask import Flask
 
 app = Flask(__name__)

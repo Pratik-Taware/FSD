@@ -1,13 +1,3 @@
-# Q1. Student Registration Form
-# Create a Flask application connected to database.
-# Requirements:
-# ● Create an HTML form to accept: 
-# o Student ID 
-# o Student Name 
-# o Course 
-# ● Validate that no field is left blank. 
-# ● Store the data in the database. 
-# ● Display a success message after submission.
 
 from flask import Flask , request, render_template
 import psycopg2
@@ -21,7 +11,7 @@ def db_connect():
         user = 'postgres',
         password = 'root',
         host = 'localhost',
-        port = '5432'
+        port = '5433'
     ) 
 
 # Create Student table

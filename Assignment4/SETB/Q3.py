@@ -1,5 +1,3 @@
-# Create separate static routes for Employee, Department, and Contact pages.
-
 from flask import Flask
 
 app = Flask(__name__)

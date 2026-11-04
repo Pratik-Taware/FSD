@@ -1,6 +1,3 @@
-# Create a Flask application with an employee route that accepts an employee name 
-#  through the URL and displays a personalized message.
-
 from flask import Flask
 
 app = Flask(__name__)

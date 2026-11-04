@@ -1,5 +1,3 @@
-# Create Flask routes for /home, /student, and /faculty displaying suitable messages
-
 from flask import Flask
 
 app = Flask(__name__)

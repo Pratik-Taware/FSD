@@ -1,16 +1,3 @@
-# Q1. Product Management API
-# Create a Flask application.
-# Requirements:
-# 1. Create a GET API /products that returns details of at least 3 products. 
-# 2. Create a POST API /addproduct that accepts Product Name and Price. 
-# 3. Test both APIs using Postman and verify the responses. 
-# Sample Product:
-# {
-#  "name":"Laptop",
-# 20
-#  "price":50000
-# }
-
 from flask import Flask ,request, jsonify
 
 app = Flask(__name__)

@@ -1,5 +1,3 @@
-# Create a feedback form using Name, Rating, and Comments and display the submitted feedback.
-
 from flask import Flask, request
 
 app = Flask(__name__)

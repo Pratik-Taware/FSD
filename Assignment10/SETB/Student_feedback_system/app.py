@@ -1,15 +1,3 @@
-# Q1. Student Feedback Form
-# Create a Flask application connected to database.
-# Requirements:
-# ● Accept: 
-# o Student Name 
-# o Subject 
-# o Feedback 
-# ● Validate that feedback cannot be empty. 
-# ● Store the feedback in the database. 
-# ● Display all submitted feedback records.
-
-
 from flask import Flask, request, render_template
 import psycopg2
 

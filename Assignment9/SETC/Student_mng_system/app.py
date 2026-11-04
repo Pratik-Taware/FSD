@@ -1,12 +1,3 @@
-# Q1. Complete CRUD Application
-# Create a Flask application connected to database.
-# Requirements:
-# ● Create Student table. 
-# ● Insert student records through HTML form. 
-# ● Display all records. 
-# ● Update student information. 
-# ● Delete a student record using Student_ID. 
-# ● Display the final updated records.
 
 
 from flask import Flask, request, render_template, redirect
@@ -21,10 +12,10 @@ def db_connect():
         user="postgres",
         password="root",
         host="localhost",
-        port="5432"
+        port="5433"
     )
 
-# Create Student table
+# Create Student tableS
 def create_table():
     con = db_connect()
     cur = con.cursor()

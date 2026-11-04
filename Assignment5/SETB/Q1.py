@@ -1,4 +1,4 @@
-# Accept employee details and display entered information.
+
 
 from flask import Flask, request
 

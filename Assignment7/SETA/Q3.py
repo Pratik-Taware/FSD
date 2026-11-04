@@ -1,6 +1,3 @@
- # Q3. Create a GET API /product to return Product Name, Price and Category in JSON. Test 
-# using Postman
-
 from flask import Flask, jsonify
 
 app = Flask(__name__)

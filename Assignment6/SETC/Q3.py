@@ -1,6 +1,3 @@
-# Create a Flask application to display student marks and calculate total, average, highest, 
-# and lowest marks dynamically
-
 from flask import Flask, render_template
 
 app = Flask(__name__)

@@ -1,6 +1,3 @@
-# Q4. Create a Flask application with a login form and display "Login Successful" when valid 
-# details are submitted.
-
 from flask import Flask, request
 
 app = Flask(__name__)

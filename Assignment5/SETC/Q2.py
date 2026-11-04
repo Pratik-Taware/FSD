@@ -1,5 +1,3 @@
-# Create a simple product order form accepting Product Name, Quantity, and Price and display the order details.
-
 from flask import Flask, request
 
 app = Flask(__name__)
